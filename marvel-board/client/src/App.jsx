@@ -12,8 +12,7 @@ function App() {
       .catch((error) => console.error(error));
   }, []);
 
-  console.log(data);
-  return <div className="App"></div>;
+  return <div className="App">{data}</div>;
 }
 
 export default App;
